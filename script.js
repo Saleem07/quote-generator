@@ -4,14 +4,11 @@ const authorText = document.getElementById("author");
 const nextBtn = document.getElementById("new-quote");
 const twitterBtn = document.getElementById("twitter");
 const loader = document.getElementById("loader");
-//* Show loading
 
 function showLoadingSpinner() {
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
-
-//* hide loading
 
 function removeLoadingSpinner() {
   if (!loader.hidden) {
